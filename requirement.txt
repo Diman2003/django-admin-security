@@ -1,0 +1,9 @@
+# install by the pip3
+django==4.1
+python==3.8+
+# settings 
+urlpatterns = patterns(
+    ...
+    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),# fake admin panel include it on main url
+     
+)
